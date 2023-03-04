@@ -6,7 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: http://isonomia.fr # the base hostname & protocol for your site
 
 twitter_username: isonomia_pure
-github_username: Isonomya
+instagram_username: isonomia_pure
 
 # Build settings
 markdown: kramdown
