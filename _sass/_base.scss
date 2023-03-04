@@ -52,7 +52,7 @@ p {
 }
 
 .text-faded {
-    color: rgba(white, .7);
+    color: rgba($theme-dark, .7);
 }
 
 section {
@@ -70,7 +70,7 @@ aside {
 // Navigation
 
 .navbar-default {
-    background-color: white;
+    background-color: beige;
     border-color: rgba($theme-dark, .5);
     @include sans-serif-font;
     @include transition-all;
@@ -120,14 +120,14 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            color: rgba($theme-dark, .7);
             &:hover {
-                color: white;
+                color: $theme-primary;
             }
         }
         &.affix {
-            background-color: white;
-            border-color: rgba($theme-dark, .5);
+            background-color: transparent;
+            //border-color: rgba(none, .5);
             .navbar-header .navbar-brand {
                 color: $theme-primary;
                 font-size: 14px;
@@ -316,6 +316,10 @@ header {
 }
 
 // Contact
+#contact {
+    background-color: #FCF1E3;
+}
+
 #contact .fa {
     color: $theme-dark;
     font-size: 4em;
